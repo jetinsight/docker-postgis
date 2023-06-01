@@ -1,3 +1,11 @@
+# JetInsight postgis docker image.
+
+To release new version
+* Login to github with docker https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
+* Update `build.sh` with new PostgreSQL and/or Postgis versions
+* Run `./build.sh` this will build and push the new image
+
+
 # postgis/postgis
 
 [![Build Status](https://github.com/postgis/docker-postgis/workflows/Docker%20PostGIS%20CI/badge.svg)](https://github.com/postgis/docker-postgis/actions) [![Join the chat at https://gitter.im/postgis/docker-postgis](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/postgis/docker-postgis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
