@@ -1,5 +1,5 @@
 #!/bin/bash
-POSTGRES_VERSION=14
+POSTGRES_VERSION=15
 POSTGIS_VERSION=3.3
 
 docker buildx build \
