@@ -1,6 +1,6 @@
 #!/bin/bash
-POSTGRES_VERSION=15
-POSTGIS_VERSION=3.3
+POSTGRES_VERSION=16
+POSTGIS_VERSION=3.4
 
 docker buildx build \
 --push \
